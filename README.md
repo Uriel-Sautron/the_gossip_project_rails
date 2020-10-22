@@ -1,24 +1,14 @@
-# README
+The Gossip Project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Creation d'une BDD pour le site The gossip project.
 
-Things you may want to cover:
+LES USERS
 
-* Ruby version
+LES VILLES
+Un utilisateur appartient à une seule ville mais une ville peut contenir plusieurs utilisateurs.
 
-* System dependencies
+LES GOSSIPS
+Un utilisateur peut écrire plusieurs gossips mais un gossip ne peut être écrit que par un seul utilisateur.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+LES TAGS
+Un gossip peut avoir plusieurs tags et un tag peut être présent sur plusieurs gossip.
